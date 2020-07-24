@@ -3,12 +3,6 @@
     "version": "0.1.0",
     "description": "A web extension that prevents a user from accessing social media for the first login each day until they solve a kata.",
     "manifest_version": 2,
-    "icons": {
-        "16": "",
-        "32": "",
-        "48": "",
-        "128": ""
-    },
     "background": {
         "scripts": [
             "./background.js"
@@ -18,7 +12,7 @@
     "browser_action": {
         "default_popup": "popup.html"
     },
-    "permisions": [
+    "permissions": [
         "tabs",
         "https://www.google.com/"
     ]
